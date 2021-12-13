@@ -6,17 +6,17 @@
 
 % TODO: change citation style in settings
 \input{settings}
-
+\addbibresource{refs.bib}
 % TODO: change thesis information
 \newcommand*{\getUniversity}{Technische Universität München}
 \newcommand*{\getFaculty}{Department of Informatics}
-\newcommand*{\getTitle}{Thesis title}
-\newcommand*{\getTitleGer}{Titel der Abschlussarbeit}
-\newcommand*{\getAuthor}{Author}
-\newcommand*{\getDoctype}{Thesis type (Bachelor's Thesis in Informatics, Master's Thesis in Robotics, \ldots)}
-\newcommand*{\getSupervisor}{Supervisor}
-\newcommand*{\getAdvisor}{Advisor}
-\newcommand*{\getSubmissionDate}{Submission date}
+\newcommand*{\getTitle}{Enhancement and Evaluation of an Algorithm for Shopping List Generation based on Meal Plans}
+\newcommand*{\getTitleGer}{Erweiterung und Evaluation eines Algorithmus zur Einkaufslistenerstellung basierend auf Mahlzeitenplänen}
+\newcommand*{\getAuthor}{Marco Menzel}
+\newcommand*{\getDoctype}{Bachelor's Thesis in Informatics: Games Engineering}
+\newcommand*{\getSupervisor}{Prof. Dr. Georg Groh}
+\newcommand*{\getAdvisor}{Monika Wintergerst, M.Sc.}
+\newcommand*{\getSubmissionDate}{15.12.2021}
 \newcommand*{\getSubmissionLocation}{Munich}
 
 \begin{document}
@@ -30,7 +30,7 @@
 
 \input{pages/title}
 \input{pages/disclaimer}
-\input{pages/acknowledgments}
+%\input{pages/acknowledgments}
 \input{pages/abstract}
 \microtypesetup{protrusion=false}
 \tableofcontents{}
@@ -39,7 +39,13 @@
 \mainmatter{}
 
 \input{chapters/01_introduction}
-% TODO: add more chapters here
+\input{chapters/02_motivation}
+\input{chapters/03_related_work}
+\input{chapters/04_project_status}
+\input{chapters/05_optimizations}
+\input{chapters/06_evaluation}
+\input{chapters/07_conclusion_future_work}
+%\input{chapter}
 
 \appendix{}
 
